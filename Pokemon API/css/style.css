@@ -1,0 +1,27 @@
+body{
+    background-image: url('../img/Pokemon forest.jpg');
+}
+
+h2{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div{
+    float: right;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+input{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+searchPokemon{
+    
+}

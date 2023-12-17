@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Pokemon gotta catch em all</h2>
+    </header>
+
+    <img src="../img/Pokemon logo transparent.png" alt="Pokemon logo" width="260" height="100">
+    <div><img src="../img/Pikachu.webp" alt="Pikachu" width="160" height="200"></div>
+
+    <div class="searchPokemon">
+        <div><input id="findPokemon" type="text" placeholder="Find Pokemon"></div>
+        <br>
+        <button id="search">I choose you</button>
+    </div>
+    
+    <div class="pokemonBox">
+        <div>
+            <img src="${data.sprites.other['official-artwork'].front_default}"
+            alt="${data.name}">
+        </div>
+    
+        <div class="pokeInfo">
+            <h1>${data.name}</h1>
+            <p>Wight: ${data.weight}</p>
+        </div>
+    
+    </div>
+    <br><br><br><br><br>
+
+                    
+                        <img src="./img/Squirtletransparent.jpg" class="img-thumbnail" alt="Squirtle" height="250" width="200">
+                        <br><br><br><br><br>
+                        <img src="./img/Pikachu.webp" class="rounded float-start" alt="Pikachu" width="160" height="200">
+                        <img src="./img/bulbasaur.jpg" class="rounded float-end" alt="Bulbasaur" height="160" width="200">
+                        <br><br><br><br><br><br><br><br><br><br>
+                        <div class="text-center">
+                        <img src="./img/SF90.jfif" class="rounded float-center" alt="Car">
+
+    
+
+    <script src="../js/script.js">
+
+    </script>
+</body>
+</html>
